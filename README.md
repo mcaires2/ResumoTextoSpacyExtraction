@@ -18,7 +18,7 @@ Usamos o sklearn para converter texto em vetor matemático
 
 Ao chamar o CountVectorizer alimentamos eles com a lista de stop words que criamos nas etapas anteriores
 
-Fizemos o parse dos vetores e criamos duas listas: a primeira com as palavras tokenizadas e uma segunda lista com a contagem que cada palavra apareceu ao longo do texto. Este passo é importante para poder descobrir a palavra com maior frequência e que será - como verá - nossa base 1 quando fomos pegar o valor relativo de frequência de cada uma destas palavras. 
+Fizemos o parse dos vetores e criamos duas listas: a primeira com as palavras tokenizadas e uma segunda lista com a contagem que cada palavra apareceu ao longo do texto. Este passo é importante para poder descobrir a palavra com maior frequência e que será - como verá - nossa base 1 quando fomos pegar o valor relativo de frequência de cada uma das outras palavras.
 
 No passo seguinte, criamos uma lista para armazenar um dicionário contendo cada sentença e a soma dos valores relativos das palavras que a compõem.
 

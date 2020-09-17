@@ -6,7 +6,7 @@ O objetivo é conseguir extrair um resumo com as principais informações releva
 
 Usamos o processamento de linguagem natural para atingir o objetivo desejado em especial Spacy na linguagem python
 
-Para tanto criamos uma lista de stopwords em conjunto com a existente na biblioteca do spacy. O detalhe é que esta lista de stop word tem como proposta retirar palavras irrelevantes do cálculo de relevância e frequênica de palavras, evitar, que se extrai trechos irrelevantes do texto como se importantes fossem.
+Para tanto criamos uma lista de stop words em conjunto com a existente na biblioteca do spacy. O detalhe é que esta lista de stop word tem como proposta retirar palavras irrelevantes do cálculo de relevância e frequênica dos vetores, evitar, ainda, extração para o resumo de trechos irrelevantes do texto como se importantes fossem.
 
 Criamos uma função extrair_txt de um arquivo salvo no formato txt 
 
